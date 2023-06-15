@@ -8,19 +8,35 @@
   }
   
   @media screen and (max-width: 1185px) {
-    .photo-grid {
+    .footer {
       max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .footer {
+    max-width: 768px;
   }
 }
 
   @media screen and (max-width: 768px) {
     .footer {
       max-width: 720px;
+      padding-top: 60px;
+      padding-bottom: 20px;
     }
   }
 
-  @media screen and (max-width: 320px) {
-    .footer { 
+  @media screen and (max-width: 730px) {
+    .footer {
+      max-width: 620px;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    .footer {
+      max-width: 288px;
       flex-direction: column;
+      padding-top: 40px;
     }
   }

@@ -23,6 +23,13 @@
     }
   }
 
+  @media screen and (max-width: 730px) {
+    .places__title {
+      max-width: 100%;
+      align-self: start;
+    }
+  }
+
   @media screen and (max-width: 320px) {
     .places__title {
       min-width: 288px;

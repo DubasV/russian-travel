@@ -4,19 +4,13 @@
   }
 
   @media screen and (max-width: 1185px) {
-    .photo-grid {
-      max-width: 1024px;
+    .cover {
+      max-width: 1020px;
   }
 }
 
-  @media screen and (max-width: 768px) {
-    .cover {
-      max-width: 768px;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .cover {
-      max-width: 320px;
-    }
-  }
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+}
+}
