@@ -3,14 +3,20 @@
     margin: 0 auto;
   }
 
-  @media screen and (max-width: 1185px) {
-    .cover {
-      max-width: 1020px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 100%;
+    max-width: 1024px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+}
+}
+
+@media screen and (max-width: 320x) {
+  .cover {
+    max-width: 320px;
 }
 }
